@@ -1,2 +1,2 @@
-# ReactApps
-Learning react, planning on eventually merging with the node site to have a full stack site.
+# Boiler plate React app
+a base React app, does almost nothing except set up the file structure and base packages.
