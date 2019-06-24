@@ -1,3 +1,5 @@
 node_modules
 public/bundle.js
 src/playground
+src/assets/headerImage.jpg
+public/images

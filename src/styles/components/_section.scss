@@ -1,0 +1,24 @@
+.section{
+    background-color: lighten($light-brown,12%);
+    padding: $s-size $m-size;
+    width: 80%;
+    margin: $l-size 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__title{ 
+    font-weight:600;
+    font-size: $xl-size;
+    color: $dark-brown;
+    text-align: center;
+}
+
+.section__sectionItems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 $l-size;
+    justify-content: center;
+}

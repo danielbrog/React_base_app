@@ -1,0 +1,19 @@
+.sectionItem{
+    padding: 0 $l-size;
+}
+
+.sectionItem__image{
+    align-self: center;
+}
+
+.sectionItem__title{
+    align-self: center;
+    font-size: $l-size;
+}
+
+.sectionItem__skills{
+    font-weight: 550;
+    align-self: center;
+    list-style: none;
+    padding: 0;
+}

@@ -1,25 +1,20 @@
 header{
-    background-color: $dark-grey;
-    height: $l-size;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $dark-brown;
+    height: $xl-size;
     padding: $s-size;
-    box-shadow: 0 0 $l-size 0 $dark-grey;
-}
-
-.header__name{
-    color: $light-grey;
-    margin: 0 $l-size;
-    font-weight: 700;
-    font-size: $l-size;
-}
-
-.flex-container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .header__navigation__link{
-    color: $light-grey;
+    color: $light-brown;
     padding: 0 0 0 $s-size;
     text-decoration: none;
+}
+
+.header__navigation{
+    padding: 0 0 0 $xl-size;
 }
