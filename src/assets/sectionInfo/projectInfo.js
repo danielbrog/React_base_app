@@ -1,21 +1,21 @@
 const projectInfo= [{
     title: "Weather",
-    image: "./images/frontEndIcon.png",
+    image: "./images/weatherIcon.png",
     url: "/weather",
     description: "Finds the weather"
 },{
     title: "Log-In App",
-    image: "./images/backEndIcon.png",
+    image: "./images/loginIcon.png",
     url: "/login",
     description: "Authenticated log in with security"
 },{
     title: "Tasks",
-    image: "./images/databaseIcon.png",
+    image: "./images/tasksIcon.png",
     url: "/taskApp",
     description: "Save tasks online in the MongoDB Database.  Must be logged in to use."
 },{
     title: "Notes",
-    image: "./images/supportIcon.png",
+    image: "./images/notesIcon.png",
     url: "/notes",
     description: "Save notes locally, simple version of tasks app"
 }]
