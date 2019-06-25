@@ -1,8 +1,8 @@
 .section{
     background-color: lighten($light-brown,12%);
     padding: $s-size $m-size;
-    width: 80%;
-    margin: $l-size 0;
+
+    margin: $l-size;
     display: flex;
     flex-direction: column;
     justify-content: center;

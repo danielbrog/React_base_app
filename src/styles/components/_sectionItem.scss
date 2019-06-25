@@ -1,5 +1,6 @@
 .sectionItem{
     padding: 0 $l-size;
+    max-width: $sectionItem;
 }
 
 .sectionItem__image{
@@ -16,4 +17,11 @@
     align-self: center;
     list-style: none;
     padding: 0;
+}
+
+.sectionItem__description{
+    font-weight: 550;
+    align-self: center;
+    padding: 0;
+    word-wrap: inherit;
 }

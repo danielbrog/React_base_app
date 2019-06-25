@@ -5,11 +5,16 @@ import SectionItem from './SectionItem'
 
 
 const Section = (props) => (
-    <div className="section" id="skills">
+    <div className="section" id={props.title}>
         <p className="section__title">{props.title}</p>
         <div className="section__sectionItems">
         {props.items.map(item => 
-            <SectionItem key={item.title} title={item.title}  image={item.image} skills={item.skills}/>
+            {if(item.skills){
+                return <SectionItem key={item.title} skill={item}/>
+            } else if(item.url){
+                return <SectionItem key={item.title} project={item}/>
+            }}
+            
         )}
         </div>
     </div>
