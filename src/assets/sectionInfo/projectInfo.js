@@ -14,10 +14,10 @@ const projectInfo= [{
     url: "/taskApp",
     description: "Save tasks online in the MongoDB Database.  Must be logged in to use."
 },{
-    title: "Notes",
+    title: "Expenses App",
     image: "./images/notesIcon.png",
-    url: "/notes",
-    description: "Save notes locally, simple version of tasks app"
+    url: "/ExpenseApp",
+    description: "Save expenses locally, using react redux"
 }]
 
 export default projectInfo

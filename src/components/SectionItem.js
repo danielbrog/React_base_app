@@ -1,27 +1,27 @@
 import React from 'react'
 
 const SectionItem = (props) => {
-    if(props.skill){
-    const {image,title,skills}=props.skill
+    if(props.info){
+        
+    const {image,title,list}=props.info
     return (
         <div className="sectionItem">
             <img className= "sectionItem__image" src={image} />
             <p className="sectionItem__title">{title}</p>
             
             <ul className="sectionItem__skills">
-                {skills.map((skill) => 
-                    <li key={skill}>{skill}</li>
+                {list.map((listItem) => 
+                    <li key={listItem}>{listItem}</li>
                     )}
             </ul>
         </div>
-    )}else if (props.project){
-        const {image,title,description,url}=props.project
+    )}else if (props.link){
+        const {image,title,description,url}=props.link
         return (
             <div className="sectionItem">
-            <img className= "sectionItem__image" src={image} />
-            <p className="sectionItem__title">{title}</p>
+            <a className ="sectionItem__Link" href={url}><img className= "sectionItem__image" src={image} />
+            <p className="sectionItem__title">{title}</p></a>
             <p className="sectionItem__description">{description}</p>
-            <a href={url}>LINK</a>
         </div>
         )
     }

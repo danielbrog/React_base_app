@@ -1,6 +1,7 @@
 .sectionItem{
-    padding: 0 $l-size;
-    max-width: $sectionItem;
+    padding: $m-size;
+    max-width: $sectionItemWidth;
+    border-bottom: 1px solid $light-brown
 }
 
 .sectionItem__image{
@@ -8,8 +9,11 @@
 }
 
 .sectionItem__title{
+    color:black;
     align-self: center;
-    font-size: $l-size;
+    font-size: $title-text;
+    font-weight: 550;
+    margin-top: 0;
 }
 
 .sectionItem__skills{
@@ -24,4 +28,8 @@
     align-self: center;
     padding: 0;
     word-wrap: inherit;
+}
+
+.sectionItem__Link{
+    text-decoration: none;
 }

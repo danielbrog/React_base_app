@@ -1,24 +1,15 @@
 import React from 'react'
-import Header from '../components/Header'
-import SubHeader from '../components/SubHeader'
 import { BrowserRouter, Route, Switch} from 'react-router-dom'
-import Section from '../components/Section'
-
-import skillsInfo from '../assets/sectionInfo/skillsInfo'
-import projectInfo from '../assets/sectionInfo/projectInfo'
-
+import HomePage from '../components/HomePage'
 
 const AppRouter = () => (
-    <div>
+
         <BrowserRouter>
-        <Header />
-        <SubHeader />
-        <div className="content">
-        <Section title="Projects" items={projectInfo}/>
-        <Section title="Skills" items={skillsInfo}/>
-        </div>
+            <Switch>
+                <Route exact path="/" component={HomePage}/>
+            </Switch>
         </BrowserRouter>
-    </div>
+
 )
 
 export default AppRouter

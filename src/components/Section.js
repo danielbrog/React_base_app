@@ -4,15 +4,15 @@ import SectionItem from './SectionItem'
 
 
 
-const Section = (props) => (
-    <div className="section" id={props.title}>
-        <p className="section__title">{props.title}</p>
+const Section = ({title, items=[]}) => (
+    <div className="section" id={title}>
+        <p className="section__title">{title}</p>
         <div className="section__sectionItems">
-        {props.items.map(item => 
-            {if(item.skills){
-                return <SectionItem key={item.title} skill={item}/>
+        {items.map(item => 
+            {if(item.list){
+                return <SectionItem key={item.title} info={item}/>
             } else if(item.url){
-                return <SectionItem key={item.title} project={item}/>
+                return <SectionItem key={item.title} link={item}/>
             }}
             
         )}

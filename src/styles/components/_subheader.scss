@@ -13,10 +13,10 @@
 .subHeader__Name{
     font-weight: 700;
     font-size: $xl-size;
-    color: $light-brown
+    color: lighten($light-brown,5%);
 }
 .subHeader__Title{
     font-weight:600;
     font-size: $l-size;
-    color: $light-brown;
+    color: lighten($light-brown,5%);
 }
