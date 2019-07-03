@@ -1,23 +1,21 @@
 const projectInfo= [{
-    title: "Weather",
+    title: "Weather App",
     image: "./images/weatherIcon.png",
     url: "/weather",
-    description: "Finds the weather"
+    github: "https://github.com/danielbrog/NodeWeather",
+    description: "Finds the weather using an external API. Written in NodeJS."
 },{
-    title: "Log-In App",
-    image: "./images/loginIcon.png",
-    url: "/login",
-    description: "Authenticated log in with security"
-},{
-    title: "Tasks",
+    title: "Task App with login",
     image: "./images/tasksIcon.png",
-    url: "/taskApp",
-    description: "Save tasks online in the MongoDB Database.  Must be logged in to use."
+    url: "/login",
+    github: "https://github.com/danielbrog/NodeSite",
+    description: "Save tasks online in a MongoDB Database on the server.  Must be logged in to use and save.  Written in NodeJS."
 },{
     title: "Expenses App",
     image: "./images/notesIcon.png",
     url: "/ExpenseApp",
-    description: "Save expenses locally, using react redux"
+    github: "https://github.com/danielbrog/React-Expenses-App",
+    description: "Save expenses locally, using react redux."
 }]
 
 export default projectInfo

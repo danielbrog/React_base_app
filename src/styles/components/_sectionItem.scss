@@ -1,35 +1,58 @@
 .sectionItem{
     padding: $m-size;
     max-width: $sectionItemWidth;
-    border-bottom: 1px solid $light-brown
+    border-bottom: 1px solid $light-brown;
 }
 
 .sectionItem__image{
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .sectionItem__title{
     color:black;
-    align-self: center;
     font-size: $title-text;
     font-weight: 550;
-    margin-top: 0;
+    text-align: center;
 }
 
 .sectionItem__skills{
     font-weight: 550;
-    align-self: center;
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 .sectionItem__description{
     font-weight: 550;
-    align-self: center;
     padding: 0;
     word-wrap: inherit;
 }
 
 .sectionItem__Link{
     text-decoration: none;
+}
+
+.sectionItem__Links{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionItem__Links__button{
+    text-decoration: none;
+    text-align: center;
+    color: $light-brown;
+    background-color: $dark-brown;
+    border: none;
+    width: 10rem;
+    padding: $xs-size;
+    margin: $s-size auto 0 auto;
+    outline: none;
+}
+
+.sectionItem__Links__button:active{
+    color: lighten($light-brown,10%);
+    background-color: lighten($dark-brown, 10%);
+    border: none;
 }

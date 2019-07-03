@@ -15,7 +15,7 @@ const skillsInfo= [{
         'Node.JS',
         'Express',
         'Java',
-        ''
+        'Ruby on Rails'
     ]
 },{
     title: "Database",
