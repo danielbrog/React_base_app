@@ -6,7 +6,7 @@ const SectionItem = (props) => {
     const {image,title,list}=props.info
     return (
         <div className="sectionItem">
-            <img className= "sectionItem__image" src={image} />
+            <img className= "sectionItem__image--static" src={image} />
             <p className="sectionItem__title">{title}</p>
             
             <ul className="sectionItem__skills">
@@ -19,8 +19,8 @@ const SectionItem = (props) => {
         const {image,title,description,url, github}=props.link
         return (
             <div className="sectionItem">
-            <a className ="sectionItem__Link" href={url}><img className= "sectionItem__image" src={image} />
-            <p className="sectionItem__title">{title}</p></a>
+            <div className ="sectionItem__zoom"><a href={url}><img className= "sectionItem__image--zoom" src={image} /></a></div>
+            <p className="sectionItem__title">{title}</p>
             <p className="sectionItem__description">{description}</p>
             <div className="sectionItem__Links">
                 <a href={url}className="sectionItem__Links__button">View Page</a>

@@ -1,6 +1,6 @@
 const skillsInfo= [{
     title: "Front-End",
-    image: "./images/frontEndIcon.png",
+    image: "./images/frontEndIcon.webp",
     list: [
         'HTML',
         'CSS',
@@ -10,7 +10,7 @@ const skillsInfo= [{
     ]
 },{
     title: "Back-End",
-    image: "./images/backEndIcon.png",
+    image: "./images/backEndIcon.webp",
     list: [
         'Node.JS',
         'Express',
@@ -19,7 +19,7 @@ const skillsInfo= [{
     ]
 },{
     title: "Database",
-    image: "./images/databaseIcon.png",
+    image: "./images/databaseIcon.webp",
     list: [
         'MySQL',
         'MongoDB',
@@ -27,8 +27,8 @@ const skillsInfo= [{
         'Microsoft SQL Server'
     ]
 },{
-    title: "Technical",
-    image: "./images/supportIcon.png",
+    title: "Supporting",
+    image: "./images/supportIcon.webp",
     list: [
         'Git',
         'ES6',

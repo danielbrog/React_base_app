@@ -1,7 +1,7 @@
 .subHeader{
     $body-bg: transparent;
     background: $light-brown;
-    background: linear-gradient(to bottom, rgba(darken($dark-brown,10%),0),rgba(darken($dark-brown,10%),100)), url(/images/headerImage.jpg),  no-repeat;
+    background: linear-gradient(to bottom, rgba(darken($dark-brown,10%),0),rgba(darken($dark-brown,10%),100)), url(/images/headerImage.webp),  no-repeat;
     height: 45rem;
     background-size: cover;
     align-items: center;

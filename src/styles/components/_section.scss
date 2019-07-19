@@ -1,7 +1,5 @@
 .section{
-    background-color: lighten($light-brown,12%);
     padding: $s-size $m-size;
-
     margin: $l-size;
     display: flex;
     flex-direction: column;
@@ -13,6 +11,7 @@
     font-size: $xl-size;
     color: $dark-brown;
     text-align: center;
+    margin-top: 0;
 }
 
 .section__sectionItems{
@@ -21,4 +20,10 @@
     flex-wrap: wrap;
     padding: 0 $l-size;
     justify-content: center;
+}
+
+@media (max-width: $desktop-breakpoint) {
+    .section{
+        margin: 0;
+    }
 }
