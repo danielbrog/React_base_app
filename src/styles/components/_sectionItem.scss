@@ -1,8 +1,8 @@
 .sectionItem{
     border-bottom: 1px solid $light-brown;
-    width: 25%;
+    width: 32%;
     background-color: lighten($light-brown,12%);
-    margin: 0 $m-size $m-size $m-size;
+    margin: 0 $s-size $m-size $s-size;
     border-radius: $xs-size;
     overflow:hidden;
 }
