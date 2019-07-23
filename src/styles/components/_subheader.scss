@@ -12,11 +12,26 @@
 }
 .subHeader__Name{
     font-weight: 700;
-    font-size: $xl-size;
-    color: lighten($light-brown,5%);
+    font-size: $s-width;
+    color: lighten($light-brown,15%);
 }
 .subHeader__Title{
     font-weight:600;
-    font-size: $l-size;
-    color: lighten($light-brown,5%);
+    font-size: $xl-size;
+    color: lighten($light-brown,15%);
+}
+
+@media (max-width: $desktop-breakpoint) {
+    .subHeader__Name{
+        font-size: $s-width -$l-size;
+    }
+
+    .subHeader__Title{
+        font-size: $l-size;
+    }
+
+    .subHeader{
+        height: 35rem;
+        margin-bottom: $s-size;
+    }
 }
