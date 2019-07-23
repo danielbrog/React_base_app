@@ -1,8 +1,17 @@
 .sectionItem{
     border-bottom: 1px solid $light-brown;
-    width: 32%;
+    max-width: $sl-width;
     background-color: lighten($light-brown,12%);
     margin: 0 $s-size $m-size $s-size;
+    border-radius: $xs-size;
+    overflow:hidden;
+}
+
+.sectionItem--small{
+    border-bottom: 1px solid $light-brown;
+    max-width: $l-width;
+    background-color: lighten($light-brown,12%);
+    margin: 0 $m-size $l-size $m-size;
     border-radius: $xs-size;
     overflow:hidden;
 }
@@ -12,7 +21,6 @@
     justify-content: center;
     margin: 0 auto;
     width: 100%;
-
 }
 
 .sectionItem__image--zoom{
@@ -33,6 +41,7 @@
     font-size: $title-text;
     font-weight: 550;
     text-align: center;
+    margin: $s-size;
 }
 
 .sectionItem__skills{
@@ -46,6 +55,7 @@
     font-weight: 550;
     padding: 0 $s-size;
     word-wrap: inherit;
+    font-size: $desscription-text;
 }
 
 .sectionItem__zoom{
@@ -84,5 +94,9 @@
 @media (max-width: $desktop-breakpoint) {
     .sectionItem{
         width: 90%;
+    }
+    
+    .sectionItem--small{
+        max-width: 43%;
     }
 }

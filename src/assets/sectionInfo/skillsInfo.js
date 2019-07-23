@@ -1,4 +1,5 @@
 const skillsInfo= [{
+    size: "large",
     title: "Front-End",
     image: "./images/frontEndIcon.webp",
     list: [
@@ -9,6 +10,7 @@ const skillsInfo= [{
         'React',
     ]
 },{
+    size: "large",
     title: "Back-End",
     image: "./images/backEndIcon.webp",
     list: [
@@ -18,6 +20,7 @@ const skillsInfo= [{
         'Ruby on Rails'
     ]
 },{
+    size: "large",
     title: "Database",
     image: "./images/databaseIcon.webp",
     list: [
@@ -27,6 +30,7 @@ const skillsInfo= [{
         'Microsoft SQL Server'
     ]
 },{
+    size: "large",
     title: "Supporting",
     image: "./images/supportIcon.webp",
     list: [

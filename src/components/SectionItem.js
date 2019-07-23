@@ -3,15 +3,17 @@ import React from 'react'
 const SectionItem = (props) => {
     if(props.info){
         
-    const {image,title,list}=props.info
+    const {image,title,list,size}=props.info
+
+    const classname= size=='large'?'sectionItem':'sectionItem--small'
     return (
-        <div className="sectionItem">
+        <div className={classname}>
             <img className= "sectionItem__image--static" src={image} />
             <p className="sectionItem__title">{title}</p>
             
             <ul className="sectionItem__skills">
                 {list.map((listItem) => 
-                    <li key={listItem}>{listItem}</li>
+                    <li className= "sectionItem__description" key={listItem}>{listItem}</li>
                     )}
             </ul>
         </div>
